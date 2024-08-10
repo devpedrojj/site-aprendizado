@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Permanent+Marker&display=swap');
+
+body {
+    font-family: 'Architects Daughter', cursive;
+    margin: 0;
+}
+
+/* headline */
+.img-headline img {
+    max-width: 100%;
+}
+
+#sub-telecom {
+    font-size: 15px;
+    letter-spacing: 15px;
+}
+
+#telecom {
+    font-size: 80px;
+}
+
+.headline p {
+    color: gray;
+    text-align: left;
+}
+
+/*LOGO */
+
+.logo h1 {
+    color: rgb(0, 22, 41);
+    font-size: 32px;
+    font-weight: bold;
+    cursor: default;
+}
+
+
+/*MENU */
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    border-top: 4px solid rgb(152, 185, 211);
+    color: rgb(82, 180, 255);
+}
+
+#botao {
+    border-radius: 8px;
+    border-top: none;
+    color: black;
+    padding: 10px 25px;
+    background: rgb(152, 185, 211);
+    margin-right: 10%;
+    margin-left: 5%;
+    border: 0.5px solid gray;
+
+}
+
+#botao:hover {
+    color: white;
+    background: #073761;
+    border: 1px solid #98b9d3;
+}
+
+
+/*DIVISÃO headline*/
+
+.headline h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    font-size: 20px;
+    color: #001629
+}
+
+
+/* DIVISÃO 2 parte*/
+
+section h2 {
+    padding: 2px;
+    border-radius: 30px;
+    cursor: default;
+    border-bottom: 5px solid #98b9d3;
+    display: inline;
+    color: #001629;
+    font-family: 'Permanent Marker', cursive;
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+
+}
+
+
+/* CARD's*/
+#img-cards {
+    width: 100%;
+}
+
+.card h3 {
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+/* CARD's ocultos*/
+#img-icon {
+    width: 30%;
+    margin-bottom: 175px;
+    margin-left: 110.5px;
+}
+
+.agencia {
+    font-family: 'Permanent Marker', cursive;
+}
+
+footer b{
+    color: aliceblue;
+}

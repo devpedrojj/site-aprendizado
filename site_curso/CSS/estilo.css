@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/*barra de navegação */
+.navbar {
+    z-index: +1;
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+/*LOGO */
+.logo {
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 10%;
+    flex: 20%;
+    text-align: left;
+}
+
+/*MENU */
+.menu {
+    padding: 20px;
+    text-align: right;
+    flex: 70%;
+}
+
+
+/* corpo do site */
+.header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+}
+
+/*corpo do site*/
+.headline {
+    margin-left: 10%;
+    flex: 40%;
+}
+
+
+
+/*botão de planos*/
+
+.contact-btn {
+    display: inline-block;
+    background: rgb(7, 55, 97);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: 0.5px solid gray;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-btn:hover {
+    color: black;
+    background: rgb(152, 185, 211);
+    border: 0.5px solid gray;
+}
+
+/*imagem 1 */
+.img-headline {
+    margin-right: 10%;
+    flex: 40%;
+}
+
+
+
+/*DIVISÃO seção*/
+
+
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0%;
+    text-align: center;
+    width: 90%;
+}
+
+.serviços {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card-tt {
+    display: inline-block;
+}
+
+.card {
+    display: inline-block;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #98b9d3;
+    border-radius: 30px;
+}
+
+.card:hover {
+    background: #001629;
+    color: white;
+}
+
+.card:hover #img-cards {
+    display: none;
+}
+
+.card:hover .card-tt {
+    display: none;
+}
+
+.card:hover .texto-oculto {
+    display: block;
+}
+
+.texto-oculto {
+    text-align: center;
+    display: none;
+}
+
+/*RODAPÉ*/
+footer {
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    border-top: 5px solid #98b9d3;
+    text-align: center;
+    margin-top: 100px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #1f5b91, #073761, #001629);
+}
+
+.rodap {
+    padding: 100px;
+}
+
+.whatz {
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    width: 50px;
+}
